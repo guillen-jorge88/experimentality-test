@@ -14,6 +14,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     CommonModule,
     MaterialModule,
     FlexLayoutModule
+  ],
+  exports: [
+    MenuComponent
   ]
 })
 export class SharedModule { }
